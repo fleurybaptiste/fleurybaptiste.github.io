@@ -205,9 +205,20 @@ main {
   line-height: 2.5rem;
   color: #b7b7b7;
 }
+.first__page--paragraphe--span--h2--first {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.first__page--paragraphe--span--h2--second {
+  color: white;
+}
+.first__page--presentation--arrow img {
+  width: 40px;
+  height: 40px;
+}
 .box__container-wrapper {
   background-color: transparent;
-  height: 5vh;
+  height: 4.5vh;
   overflow: hidden;
 }
 .wrapper {
