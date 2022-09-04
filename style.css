@@ -205,6 +205,11 @@ main {
   line-height: 2.5rem;
   color: #b7b7b7;
 }
+.box__container-wrapper {
+  background-color: transparent;
+  height: 5vh;
+  overflow: hidden;
+}
 .wrapper {
   box-sizing: content-box;
   background-color: transparent;
