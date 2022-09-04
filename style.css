@@ -535,10 +535,7 @@ main {
   -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
-.control__submit--button {
-}
-.control__submit--button:hover {
-}
+
 /* --------------------------------a reprendre !!!!!!!!!!---------------------------------------------------- */
 .contact__form--under--title {
   text-align: center;
@@ -579,6 +576,11 @@ footer {
 }
 .footer__social--icons img {
   margin: 0 25px;
+}
+.footer__social--icons img:hover {
+  width: 28px;
+  height: 28px;
+  transition: all 0.5s ease-in-out;
 }
 .social_icons--paragraph {
   text-align: center;
