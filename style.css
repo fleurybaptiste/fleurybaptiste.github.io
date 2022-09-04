@@ -533,9 +533,8 @@ footer {
   justify-content: center;
 }
 .footer__social--icons img {
-  padding: 0 25px;
+  margin: 0 25px;
 }
-
 .social_icons--paragraph {
   text-align: center;
   padding: 5rem 0 5rem 0;
