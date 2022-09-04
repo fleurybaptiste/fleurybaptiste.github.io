@@ -243,6 +243,12 @@ main {
   color: orange;
   animation: spin_words 6s infinite;
 }
+.words a {
+  font-family: "Permanent Marker", cursive;
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: orange;
+}
 @keyframes spin_words {
   10% {
     transform: translateY(-112%);
