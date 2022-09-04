@@ -525,25 +525,31 @@ footer {
   text-align: center;
   font-size: 1.6rem;
   font-weight: 500;
-  padding: 3rem 0 1rem 0;
+  padding: 5rem 0 5rem 0;
 }
 .footer__social--icons {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  padding: 10px 0;
+  justify-content: center;
+}
+.footer__social--icons img {
+  padding: 0 25px;
 }
 
 .social_icons--paragraph {
   text-align: center;
-  padding: 0 0 5rem 0;
+  padding: 5rem 0 5rem 0;
   font-size: 1.4rem;
   line-height: 2.5rem;
 }
 @media only screen and (min-width: 320px) and (max-width: 829px) {
+  .footer__social--title {
+    font-size: 1.6rem;
+    padding: 2rem 0 2rem 0;
+  }
   .social_icons--paragraph {
     text-align: center;
-    padding: 0 0 5rem 0;
+    padding: 2rem 0 2rem 0;
     font-size: 1.2rem;
   }
 }
